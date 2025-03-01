@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: "Tinos";
+  src: url(./fonts/Tinos/Tinos-Regular.ttf);
+}
 
 @font-face {
   font-family: "OpenSans";
@@ -19,7 +23,7 @@
 
 html, body {
   background-color: rgb(163, 159, 159);
-  font-family: "Oswald", sans-serif;
+  font-family: "Tinos", sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -89,7 +93,7 @@ header {
 
 .callUs {
   position: relative;
-  height: 100vh;
+  height: 140vh;
   display: flex;
   justify-content: space-around;
   flex-direction: row;

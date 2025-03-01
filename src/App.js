@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import ContactForm from "./ContactForm";
 import SliderSection from "./SliderSection";
+import Calculator from "./Calculator";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         </div>
       </section>
       <SliderSection />
+      <Calculator/>
     </div>
   );
 }
