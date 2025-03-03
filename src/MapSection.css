@@ -1,0 +1,43 @@
+.lastSection{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.map{
+}
+
+.map{
+    position:relative;
+    overflow:hidden;
+}
+
+.firstA{
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:0px;
+}
+
+.SecondA{
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:14px;
+}
+
+.Framei{
+    position:relative;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+
+.policy{
+    font-size: 15px;
+    font-family: "OpenSans", sans-serif;
+}

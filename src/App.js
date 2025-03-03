@@ -3,6 +3,7 @@ import "./App.css";
 import ContactForm from "./ContactForm";
 import SliderSection from "./SliderSection";
 import Calculator from "./Calculator";
+import MapSection from "./MapSection";
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
         </div>
       </section>
       <SliderSection />
-      <Calculator/>
+      <Calculator />
+      <MapSection />
     </div>
   );
 }
