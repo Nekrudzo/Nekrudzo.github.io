@@ -19,7 +19,7 @@ const SliderSection = () => {
   };
 
   return (
-    <section className="slider-section">
+    <section className="slider-section" id="slider-section">
       <Slider {...settings}>
         <div className="slide">
           <img src="/slide1.jpg" alt="Slide1" />

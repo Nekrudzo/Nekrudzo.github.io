@@ -206,7 +206,7 @@ const ContactForm = () => {
           Перезвоните мне
         </button>
       </div>
-      <div className="policy">
+      <div className="policy-form">
         <p>
           Нажимая эту кнопку, я даю согласие на обработку персональных данных и
           соглашаюсь с{" "}
@@ -214,6 +214,7 @@ const ContactForm = () => {
             href="https://vk.com/doc-41256460_450831081?dl=5b3c3f0038003652ca"
             target="_blank"
             rel="noopener noreferrer"
+            className="policy"
           >
             политикой конфиденциальности
           </a>

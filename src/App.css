@@ -271,7 +271,17 @@ header {
   background-color: rgb(180, 18, 18); /* Изменяем цвет при наведении */
 }
 
-.policy {
-  font-size: 15px;
+.policy-form {
+  font-size: 25px;
   font-family: "OpenSans", sans-serif;
+}
+
+.policy {
+  text-decoration: none;
+  color: rgb(180, 18, 18);
+}
+
+.policy:focus{
+  border-bottom: 1px solid;
+  background: rgb(163, 159, 159);
 }

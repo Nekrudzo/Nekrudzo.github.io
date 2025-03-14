@@ -15,17 +15,17 @@ function App() {
           </a>
           <ol className="links-list">
             <li className="link">
-              <a className="nav-links" href="#">
+              <a className="nav-links" href="#slider-section">
                 О НАС
               </a>
             </li>
             <li className="link">
-              <a className="nav-links" href="#">
+              <a className="nav-links" href="#calculatorSection">
                 ТАРИФЫ
               </a>
             </li>
             <li className="link">
-              <a className="nav-links" href="#">
+              <a className="nav-links" href="#lastSection">
                 КОНТАКТЫ
               </a>
             </li>

@@ -33,7 +33,7 @@ const Calculator = () => {
   const { incomeTax } = calculate();
 
   return (
-    <div className="calculatorSection">
+    <div className="calculatorSection" id="calculatorSection">
       <h1 className="calculator-tittle">Рассчёт стоимости обслуживания</h1>
       <div className="calculator">
         <form className="calculator-form">
