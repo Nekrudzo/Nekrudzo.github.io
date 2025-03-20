@@ -1,7 +1,8 @@
 {
   "name": "bubp",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://Nekrudzo.github.io/Nekrudzo.github.io",
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^3.8.1",
     "@testing-library/dom": "^10.4.0",
@@ -47,6 +48,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "react-scripts": "^5.0.1"
-  },
-  "homepage": "https://Nekrudzo.github.io/Nekrudzo.github.io"
+  }
 }
