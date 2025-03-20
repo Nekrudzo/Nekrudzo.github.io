@@ -1,12 +1,13 @@
 .calculatorSection{
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   height: 140vh;
   background-image: url('/public/calculatorImg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }  
 
 .calculatorSection::before{
@@ -14,7 +15,7 @@
     position: absolute;
     width: 100%;
     height: 140vh;
-    background-color: rgba(0, 0, 0, 0.3); /* Черный цвет с прозрачностью для затемнения */
+    background-color: rgba(0, 0, 0, 0.5); /* Черный цвет с прозрачностью для затемнения */
     z-index: 1;
 }
 
@@ -22,13 +23,18 @@
 .calculator-tittle{
     font-size: 50px;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     color: #fff;
     z-index: 4;
+    text-align: center;
 }
 
 .calculator{
     z-index: 4;
+    background-color: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .calculator-form{
@@ -36,25 +42,57 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border-radius: 5px;
-  border: 1px #e73a3a solid;
-  background-color: #fff;
-
 }
 
 .calculator-label{
     font-size: 19px;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: #e73a3a;
+    text-align: start;
+}
+
+.calculator-select{
+font-family:'Times New Roman', Times, serif ;
+font-size: 16px;
+width: 70%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+transition: border-color 0.3s ease;
+}
+
+.calculator-select:focus {
+    border-color: #e73a3a;
+}
+
+.calculator-input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 20%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.calculator-input:focus{
+    border-color: #e73a3a;
 }
 
 .label-text {
-    font-size: 10px;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
 }
 
 .total {
-    margin-top: 40px;
-    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
 }
 

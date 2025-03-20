@@ -35,6 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для баннеров */
     z-index: 1000;
 }
@@ -66,7 +67,10 @@
     background: #ffffff;
     border-radius: 50%;
     text-decoration: none;
+    font-size: 15px;
+    color: rgb(194, 32, 32);
     transition: background 0.3s, transform 0.3s;
+    margin-bottom: 550px;
 }
   
 .social-link:hover {

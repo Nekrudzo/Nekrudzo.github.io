@@ -46,16 +46,6 @@ const MapSection = () => {
         <p>Екатеринбург, ул. Крестинского д. 44 офис 505 (5 этаж)</p>
         <p>Часы работы с 9-00 до 18-00.</p>
         <p>ООО "Бухгалтерский учёт без проблем"</p>
-        <div className="policy-form">
-          <a
-            href="https://vk.com/doc-41256460_450831081?dl=5b3c3f0038003652ca"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="policy"
-          >
-            <p>Политика конфиденциальности</p>
-          </a>
-        </div>
         <a
           href="#top"
           id="back-to-top"

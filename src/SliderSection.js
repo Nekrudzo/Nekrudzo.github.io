@@ -33,10 +33,10 @@ const SliderSection = () => {
               href="https://vk.com/buhuchetbp"
               target="_blank"
               rel="noopener noreferrer"
-              className="social-link vk"
+              className="social-link"
             >
               <p>Наш ВК:</p>
-              <img src="/vk-icon.png" alt="VK" />
+              <img src="/vk-icon.svg" alt="VK" />
             </a>
           </div>
         </div>
@@ -56,10 +56,10 @@ const SliderSection = () => {
               href="https://www.instagram.com/buhuchet.bp/"
               target="_blank"
               rel="noopener noreferrer"
-              className="social-link insta"
+              className="social-link"
             >
               <p>Наш инстаграмм:</p>
-              <img src="/insta-icon.png" alt="Instagram" />
+              <img src="/insta-icon.svg" alt="Instagram" />
             </a>
           </div>
         </div>
@@ -81,10 +81,10 @@ const SliderSection = () => {
               href="https://t.me/bubpekb"
               target="_blank"
               rel="noopener noreferrer"
-              className="social-link telegram"
+              className="social-link"
             >
               <p>Наш телеграмм:</p>
-              <img src="/telegram-icon.png" alt="Telegram" />
+              <img src="/telegram-icon.svg" alt="Telegram" />
             </a>
           </div>
         </div>

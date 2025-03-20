@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="header">
         <nav className="header-nav">
-          <a className="main-logo" href="">
+          <a className="main-logo">
             <img src="/mainLogo.png" alt="mainLogo" />
           </a>
           <ol className="links-list">
@@ -51,17 +51,23 @@ function App() {
             Сдайте бухгалтерский или налоговый отчёт без ошибок и за 1 день!
           </p>
         </div>
-        <div className="container">
-          <h1 className="input-text">
-            Оставьте заявку и мы свяжемся с Вами чтобы предложить наиболее
-            выгодные условия обслуживания
-          </h1>
-          <ContactForm />
-        </div>
       </section>
       <SliderSection />
       <Calculator />
       <MapSection />
+      <footer>
+        <div className="policy-form">
+          <a
+            href="https://vk.com/doc-41256460_450831081?dl=5b3c3f0038003652ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="policy"
+          >
+            <p>Политика конфиденциальности</p>
+          </a>
+        </div>
+        <p className="footer-text">© 2018 nekrudzo</p>
+      </footer>
     </div>
   );
 }

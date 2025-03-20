@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useIMask } from "react-imask";
 
 const ContactForm = () => {
@@ -14,11 +14,12 @@ const ContactForm = () => {
 
   const [errors, setErrors] = useState({});
 
-  const phoneRef = useRef(null);
+  const maskOptions = {
+    mask: "{+7 (000) 000-00-00}",
+    lazy: false, // Автоматически применяет маску
+  };
 
-  useIMask(phoneRef, {
-    mask: "+{7} (000) 000-00-00",
-  });
+  const { ref, unmaskedValue } = useIMask(maskOptions);
 
   const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
@@ -27,6 +28,15 @@ const ContactForm = () => {
       [name]: type === "checkbox" ? checked : value,
     });
   };
+
+  useEffect(() => {
+    if (unmaskedValue !== undefined) {
+      setFormData((prevData) => ({
+        ...prevData,
+        phone: unmaskedValue,
+      }));
+    }
+  }, [unmaskedValue]);
 
   const validateForm = () => {
     let newErrors = {};
@@ -42,7 +52,7 @@ const ContactForm = () => {
     }
 
     if (!formData.ooo && !formData.ip) {
-      newErrors.selfOwnership = "Пожалуйста, выберите форму собственности";
+      newErrors.selfOwnerShip = "Пожалуйста, выберите форму собственности";
     }
 
     if (!formData.osno && !formData.usnPlus && !formData.usnMinus) {
@@ -63,7 +73,7 @@ const ContactForm = () => {
     const dataToSend = {
       name: formData.name.trim(),
       phone: formData.phone.trim(),
-      selfOwnership: {
+      selfOwnerShip: {
         ooo: formData.ooo,
         ip: formData.ip,
       },
@@ -74,7 +84,7 @@ const ContactForm = () => {
       },
     };
 
-    fetch("https://example.com/submit", {
+    fetch("http://localhost:5000/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -126,7 +136,7 @@ const ContactForm = () => {
       />
       {errors.name && <div className="error">{errors.name}</div>}
       <input
-        ref={phoneRef}
+        ref={ref}
         type="tel"
         id="phone"
         name="phone"
@@ -161,8 +171,8 @@ const ContactForm = () => {
           <p>ИП</p>
         </div>
       </div>
-      {errors.selfOwnership && (
-        <div className="error">{errors.selfOwnership}</div>
+      {errors.selfOwnerShip && (
+        <div className="error">{errors.selfOwnerShip}</div>
       )}
       <div className="tax-form">
         <label>Система налогообложения</label>
