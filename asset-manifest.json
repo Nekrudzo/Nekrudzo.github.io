@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Nekrudzo.github.io/static/css/main.9d63744b.css",
+    "main.js": "/Nekrudzo.github.io/static/js/main.d9d5c2db.js",
+    "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/Nekrudzo.github.io/static/media/OpenSans-Italic-VariableFont_wdth,wght.582284c873c3f85ba4f8.ttf",
+    "static/media/Tinos-Regular.ttf": "/Nekrudzo.github.io/static/media/Tinos-Regular.83a9accf4fde7027b6d2.ttf",
+    "static/media/MarkaziText-VariableFont_wght.ttf": "/Nekrudzo.github.io/static/media/MarkaziText-VariableFont_wght.526f74ab0f94c23b4047.ttf",
+    "static/media/Oswald-VariableFont_wght.ttf": "/Nekrudzo.github.io/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
+    "static/media/calculatorImg.jpg": "/Nekrudzo.github.io/static/media/calculatorImg.f6166fb487ffc1809264.jpg",
+    "static/media/mapSection.jpg": "/Nekrudzo.github.io/static/media/mapSection.03b853b24de1b75cd558.jpg",
+    "static/media/slick.svg": "/Nekrudzo.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Nekrudzo.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Nekrudzo.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Nekrudzo.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Nekrudzo.github.io/index.html",
+    "static/media/check.svg": "/Nekrudzo.github.io/static/media/check.c2fe8155882090a44247.svg",
+    "main.9d63744b.css.map": "/Nekrudzo.github.io/static/css/main.9d63744b.css.map",
+    "main.d9d5c2db.js.map": "/Nekrudzo.github.io/static/js/main.d9d5c2db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d63744b.css",
+    "static/js/main.d9d5c2db.js"
+  ]
+}
