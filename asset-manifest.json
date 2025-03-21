@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f617ff7d.css",
-    "main.js": "/static/js/main.d9d5c2db.js",
-    "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-Italic-VariableFont_wdth,wght.582284c873c3f85ba4f8.ttf",
-    "static/media/Tinos-Regular.ttf": "/static/media/Tinos-Regular.83a9accf4fde7027b6d2.ttf",
-    "static/media/MarkaziText-VariableFont_wght.ttf": "/static/media/MarkaziText-VariableFont_wght.526f74ab0f94c23b4047.ttf",
-    "static/media/Oswald-VariableFont_wght.ttf": "/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
-    "static/media/calculatorImg.jpg": "/static/media/calculatorImg.f6166fb487ffc1809264.jpg",
-    "static/media/mapSection.jpg": "/static/media/mapSection.03b853b24de1b75cd558.jpg",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "static/media/check.svg": "/static/media/check.c2fe8155882090a44247.svg",
-    "main.f617ff7d.css.map": "/static/css/main.f617ff7d.css.map",
-    "main.d9d5c2db.js.map": "/static/js/main.d9d5c2db.js.map"
+    "main.css": "/nekrudo.github.io/static/css/main.034a55f1.css",
+    "main.js": "/nekrudo.github.io/static/js/main.d9d5c2db.js",
+    "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/nekrudo.github.io/static/media/OpenSans-Italic-VariableFont_wdth,wght.582284c873c3f85ba4f8.ttf",
+    "static/media/Tinos-Regular.ttf": "/nekrudo.github.io/static/media/Tinos-Regular.83a9accf4fde7027b6d2.ttf",
+    "static/media/MarkaziText-VariableFont_wght.ttf": "/nekrudo.github.io/static/media/MarkaziText-VariableFont_wght.526f74ab0f94c23b4047.ttf",
+    "static/media/Oswald-VariableFont_wght.ttf": "/nekrudo.github.io/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
+    "static/media/calculatorImg.jpg": "/nekrudo.github.io/static/media/calculatorImg.f6166fb487ffc1809264.jpg",
+    "static/media/mapSection.jpg": "/nekrudo.github.io/static/media/mapSection.03b853b24de1b75cd558.jpg",
+    "static/media/slick.svg": "/nekrudo.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/nekrudo.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/nekrudo.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/nekrudo.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/nekrudo.github.io/index.html",
+    "static/media/check.svg": "/nekrudo.github.io/static/media/check.c2fe8155882090a44247.svg",
+    "main.034a55f1.css.map": "/nekrudo.github.io/static/css/main.034a55f1.css.map",
+    "main.d9d5c2db.js.map": "/nekrudo.github.io/static/js/main.d9d5c2db.js.map"
   },
   "entrypoints": [
-    "static/css/main.f617ff7d.css",
+    "static/css/main.034a55f1.css",
     "static/js/main.d9d5c2db.js"
   ]
 }
