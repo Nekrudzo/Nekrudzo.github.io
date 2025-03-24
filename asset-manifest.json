@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nekrudo.github.io/static/css/main.f732fdca.css",
-    "main.js": "/nekrudo.github.io/static/js/main.6099bf6b.js",
+    "main.js": "/nekrudo.github.io/static/js/main.590039ce.js",
     "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/nekrudo.github.io/static/media/OpenSans-Italic-VariableFont_wdth,wght.582284c873c3f85ba4f8.ttf",
     "static/media/Tinos-Regular.ttf": "/nekrudo.github.io/static/media/Tinos-Regular.83a9accf4fde7027b6d2.ttf",
     "static/media/MarkaziText-VariableFont_wght.ttf": "/nekrudo.github.io/static/media/MarkaziText-VariableFont_wght.526f74ab0f94c23b4047.ttf",
@@ -15,10 +15,10 @@
     "index.html": "/nekrudo.github.io/index.html",
     "static/media/check.svg": "/nekrudo.github.io/static/media/check.c2fe8155882090a44247.svg",
     "main.f732fdca.css.map": "/nekrudo.github.io/static/css/main.f732fdca.css.map",
-    "main.6099bf6b.js.map": "/nekrudo.github.io/static/js/main.6099bf6b.js.map"
+    "main.590039ce.js.map": "/nekrudo.github.io/static/js/main.590039ce.js.map"
   },
   "entrypoints": [
     "static/css/main.f732fdca.css",
-    "static/js/main.6099bf6b.js"
+    "static/js/main.590039ce.js"
   ]
 }
