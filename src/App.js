@@ -66,7 +66,7 @@ function App() {
             <p>Политика конфиденциальности</p>
           </a>
         </div>
-        <p className="footer-text">© 2018 nekrudzo</p>
+        <p className="footer-text">© 2025 nekrudzo</p>
       </footer>
     </div>
   );

@@ -1,0 +1,330 @@
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: "Tinos";
+  src: url(./fonts/Tinos/Tinos-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(./fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Markazi";
+  src: url(./fonts/Markazi_Text/MarkaziText-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(./fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+html, body {
+  background-color: rgb(163, 159, 159);
+  font-family: "Tinos", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding-top: 60px; /* Высота header + немного дополнительного отступа */
+}
+
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: "Markazi", sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Чтобы header был поверх других элементов */
+  border-bottom: 1px solid #ddd; /* Добавляем нижнюю границу для разделения */
+  
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  margin-right: 55px;
+}
+
+.nav-links {
+  font-family: "Markazi", Times, serif;
+  text-decoration: none;
+  color: rgb(219, 21, 21);
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-logo {
+  margin-right: 20px; /* Уменьшаем отступ для более компактного вида */
+}
+
+.callUs {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgb(163, 159, 159);
+  background-size: contain, contain, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top center;
+  overflow: hidden;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.callUs::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2); /* Черный цвет с прозрачностью для затемнения */
+  z-index: 1; /* Устанавливаем уровень z-index ниже текста */
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: -40px;
+  z-index: 2; /* Устанавливаем уровень z-index выше затемнения */
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mainText-tittle {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Белый цвет текста для видимости на затемненном фоне */
+}
+
+.mainText-text {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  width: 30%;
+  height: 85%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.container-form {
+  width: 100%;
+  height: 700px; /* Устанавливаем фиксированную высоту для контейнера формы */
+}
+
+.name-input,
+.phone-input {
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  height: 7%; /* Используем проценты */
+  width: 80%;
+  border-color: #e73a3a;
+  color: black;
+  background-color: #d1cccc;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.self-form,
+.tax-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 19px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-text {
+  font-size: 21px;
+  color: rgb(219, 21, 21);
+}
+
+.phone-input {
+  margin-top: 20px;
+}
+
+.checkbox {
+  appearance: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.checkbox:focus{
+  outline: 2px dashed rgb(219, 21, 21);
+  transition: 200ms;
+}
+
+.checkbox::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px; /* Изменено для центрирования */
+  left: 7px; /* Изменено для центрирования */
+  background-image: url("./check.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  opacity: 0;
+  transition: 100ms;
+}
+
+.checkbox:checked::after{
+  opacity: 1;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.callBut {
+  display: flex;
+  justify-content: center;
+}
+
+.callMeButton {
+  background-color: rgb(219, 21, 21); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.callMeButton:hover {
+  background-color: rgb(180, 18, 18); /* Изменяем цвет при наведении */
+}
+
+.policy-form {
+  font-size: 25px;
+  font-family: "OpenSans", sans-serif;
+}
+
+.policy {
+  text-decoration: none;
+  color: rgb(180, 18, 18);
+}
+
+.policy:focus{
+  border-bottom: 1px solid;
+  background: rgb(163, 159, 159);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+.policy-form{
+  font-size: 15px;
+  font-family: "OpenSans", sans-serif;
+}
+
+.policy {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(180, 18, 18);
+}
+
+.policy:focus{
+  border-bottom: 1px solid;
+  background: rgb(163, 159, 159);
+}
+
+.footer-text{
+  color: black;
+}
