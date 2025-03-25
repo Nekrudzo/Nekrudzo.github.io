@@ -11,10 +11,7 @@ function App() {
       <header className="header">
         <nav className="header-nav">
           <a className="main-logo">
-            <img
-              src="C:\Users\13089\OneDrive\Рабочий стол\Nekrudzo.github.io\public\mainLogo.png"
-              alt="mainLogo"
-            />
+            <img src="/static/media/mainLogo.png" alt="mainLogo" />
           </a>
           <ol className="links-list">
             <li className="link">
