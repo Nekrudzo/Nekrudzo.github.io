@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.772e6952.css",
+    "main.js": "/static/js/main.9ed31203.js",
+    "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-Italic-VariableFont_wdth,wght.582284c873c3f85ba4f8.ttf",
+    "static/media/Tinos-Regular.ttf": "/static/media/Tinos-Regular.83a9accf4fde7027b6d2.ttf",
+    "static/media/MarkaziText-VariableFont_wght.ttf": "/static/media/MarkaziText-VariableFont_wght.526f74ab0f94c23b4047.ttf",
+    "static/media/Oswald-VariableFont_wght.ttf": "/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
+    "static/media/calculatorImg.jpg": "/static/media/calculatorImg.f6166fb487ffc1809264.jpg",
+    "static/media/mapSection.jpg": "/static/media/mapSection.03b853b24de1b75cd558.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/check.svg": "/static/media/check.c2fe8155882090a44247.svg",
+    "main.772e6952.css.map": "/static/css/main.772e6952.css.map",
+    "main.9ed31203.js.map": "/static/js/main.9ed31203.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772e6952.css",
+    "static/js/main.9ed31203.js"
+  ]
+}
