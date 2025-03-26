@@ -10,7 +10,7 @@ function App() {
       <header className="header">
         <nav className="header-nav">
           <a className="main-logo" href="https://bubp.ru/">
-            <img src="/build/mainLogo.png" alt="mainLogo" />
+            <img src="/mainLogo.png" alt="mainLogo" />
           </a>
           <ol className="links-list">
             <li className="link">
@@ -65,7 +65,7 @@ function App() {
             <p>Политика конфиденциальности</p>
           </a>
         </div>
-        <p className="footer-text">© 2023 nekrudzo</p>
+        <p className="footer-text">© 2025 nekrudzo</p>
       </footer>
     </div>
   );
