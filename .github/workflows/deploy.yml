@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Триггер на пуш в main (замените на вашу ветку, если она другая)
+    branches: [master] # Триггер на пуш в main (замените на вашу ветку, если она другая)
 
 jobs:
   build-and-deploy:
