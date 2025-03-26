@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="header">
         <nav className="header-nav">
-          <a className="main-logo" href="#">
+          <a className="main-logo" href="https://bubp.ru/">
             <img src="/build/mainLogo.png" alt="mainLogo" />
           </a>
           <ol className="links-list">
