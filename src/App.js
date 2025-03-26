@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import ContactForm from "./ContactForm";
 import SliderSection from "./SliderSection";
 import Calculator from "./Calculator";
 import MapSection from "./MapSection";
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <header className="header">
         <nav className="header-nav">
-          <a className="main-logo">
+          <a className="main-logo" href="#">
             <img src="/build/mainLogo.png" alt="mainLogo" />
           </a>
           <ol className="links-list">

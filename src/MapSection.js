@@ -37,6 +37,7 @@ const MapSection = () => {
           frameborder="1"
           allowfullscreen="true"
           className="Framei"
+          title="Описание iframe"
         ></iframe>
       </div>
       <div className="contacts">
