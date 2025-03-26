@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master] # Триггер на пуш в main (замените на вашу ветку, если она другая)
+    branches: [master]
 
 jobs:
   build-and-deploy:
@@ -26,5 +26,7 @@ jobs:
       - name: Деплой в gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }} # Используйте созданный токен
           publish_dir: ./build # Папка с собранным проектом
+          branch: gh-pages # Убедитесь, что это имя вашей ветки
+          repository: Nekrudzo/Nekrudzo.github.io
