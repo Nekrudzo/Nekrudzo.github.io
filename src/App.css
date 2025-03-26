@@ -328,3 +328,72 @@ footer {
 .footer-text{
   color: black;
 }
+
+@media (max-width: 768px) {
+/*header and footer*/
+
+  .header-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links-list {
+    margin-top: 20px;
+  }
+
+  .link{
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav-links{
+    font-size: 16px;
+  }
+
+  .contact-info{
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-logo{
+    margin-right: 0px;
+  }
+
+  .callUs{
+    height: auto;
+    flex-direction: column;
+    min-height: 50vh;
+  }
+
+  #myVideo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .mainText {
+    margin-top: 20px;
+  }
+
+  .mainText-tittle{
+    font-size: 30px;
+  }
+
+  .mainText-text{
+    font-size: 18px;
+  }
+
+  footer {
+    flex-direction: column; /* Меняем направление на вертикальное */
+    align-items: center; /* Выравниваем по центру */
+  }
+
+  .policy-form {
+    margin-bottom: 10px; /* Добавляем отступ */
+  }
+
+  .footer-text {
+    margin-top: 10px; /* Добавляем отступ */
+  }
+}

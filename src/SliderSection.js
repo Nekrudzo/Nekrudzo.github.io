@@ -16,13 +16,14 @@ const SliderSection = () => {
     arrows: true,
     fade: true,
     cssEase: "linear",
+    adaptiveHeight: false,
   };
 
   return (
     <section className="slider-section" id="slider-section">
-      <Slider {...settings}>
+      <Slider {...settings} adaptiveHeight={false}>
         <div className="slide">
-          <img src="/slide1.jpg" alt="Slide1" />
+          <img src="/slide1.jpg" alt="Slide1" className="slide-img" />
           <div className="overlay">
             <h1 className="slide-tittle">Почему стоит выбрать нас:</h1>
             <p className="slide-text">
@@ -41,7 +42,7 @@ const SliderSection = () => {
           </div>
         </div>
         <div className="slide">
-          <img src="/slide2.jpg" alt="Slide2" />
+          <img src="/slide2.jpg" alt="Slide2" className="slide-img" />
           <div className="overlay">
             <h1 className="slide-tittle">ГОСОРГАНЫ</h1>
             <p className="slide-text">
@@ -64,7 +65,7 @@ const SliderSection = () => {
           </div>
         </div>
         <div className="slide">
-          <img src="/slide3.jpg" alt="Slide3" />
+          <img src="/slide3.jpg" alt="Slide3" className="slide-img" />
           <div className="overlay">
             <h1 className="slide-tittle">ИННОВАЦИОННЫЕ ТЕХНОЛОГИИ</h1>
             <p className="slide-text">

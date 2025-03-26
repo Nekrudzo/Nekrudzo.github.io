@@ -1,7 +1,7 @@
 .calculatorSection{
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   height: 140vh;
   background-image: url('/public/calculatorImg.jpg');
@@ -31,7 +31,7 @@
 
 .calculator{
     z-index: 4;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.7);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
