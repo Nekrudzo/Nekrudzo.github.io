@@ -78,6 +78,7 @@ const Calculator = () => {
         <form className="calculator-form">
           <label className="calculator-label">
             Форма собственности:
+            <br />
             <select
               value={ownerShipForm}
               onChange={(e) => setOwnerShipForm(e.target.value)}

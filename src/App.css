@@ -385,7 +385,6 @@ footer {
   }
 
   footer {
-    flex-direction: column; /* Меняем направление на вертикальное */
     align-items: center; /* Выравниваем по центру */
   }
 
@@ -395,5 +394,20 @@ footer {
 
   .footer-text {
     margin-top: 10px; /* Добавляем отступ */
+  }
+}
+
+
+@media (max-width: 414px) {
+  .main-logo img{
+    height: 5vh;
+  }
+
+  .links-list{
+    margin-top: 0px;
+  }
+
+  .contact-info{
+    margin-top: 0px;
   }
 }
