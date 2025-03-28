@@ -188,7 +188,10 @@ const Calculator = () => {
             <input
               type="number"
               value={persRec}
-              onChange={(e) => setPersRec(Number(e.target.value))}
+              onChange={(e) => {
+                const newValue = e.target.value;
+                setPersRec(newValue);
+              }}
               className="calculator-input"
             />
           </label>
@@ -200,7 +203,10 @@ const Calculator = () => {
             <input
               type="number"
               value={busPayments}
-              onChange={(e) => setBusPayments(Number(e.target.value))}
+              onChange={(e) => {
+                const newValue = e.target.value;
+                setBusPayments(newValue);
+              }}
               className="calculator-input"
             />
             <p className="label-text">
@@ -219,7 +225,10 @@ const Calculator = () => {
             <input
               type="number"
               value={docsPerMonth}
-              onChange={(e) => setDocsPerMonth(Number(e.target.value))}
+              onChange={(e) => {
+                const newValue = e.target.value;
+                setDocsPerMonth(newValue);
+              }}
               className="calculator-input"
             />
           </label>

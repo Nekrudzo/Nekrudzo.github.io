@@ -36,6 +36,7 @@
     background-color: rgba(255,255,255,0.7);
     padding: 30px;
     border-radius: 10px;
+    border: 2px solid #e73a3a;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -64,6 +65,11 @@ border: 1px solid #ccc;
 border-radius: 5px;
 outline: none;
 transition: border-color 0.3s ease;
+-webkit-appearance: none; /* Убирает стандартные стили браузера */
+-moz-appearance: none;
+appearance: none;
+color: #333;
+background-color: #fff;
 }
 
 .calculator-select:focus {
@@ -83,6 +89,8 @@ transition: border-color 0.3s ease;
     -webkit-appearance: none; /* Убирает стандартные стили браузера */
     -moz-appearance: none;
     appearance: none;
+    color: #333;
+    background-color: #fff;
 }
 
 .calculator-input:focus{
@@ -98,7 +106,11 @@ transition: border-color 0.3s ease;
 .total {
     margin-top: 30px;
     font-size: 24px;
-    color: #333;
+    font-weight: 800;
+    font-style: italic;
+    border: 3px solid #e73a3a;
+    border-radius: 5px;
+    color: #161414;
     text-align: center;
 }
 

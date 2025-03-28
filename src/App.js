@@ -65,6 +65,17 @@ function App() {
             <p>Политика конфиденциальности</p>
           </a>
         </div>
+        <p className="footer-text">
+          Designed by{" "}
+          <a
+            href="https://www.freepik.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="policy"
+          >
+            Freepik
+          </a>
+        </p>
         <p className="footer-text">© 2025 nekrudzo</p>
       </footer>
     </div>
