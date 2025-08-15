@@ -22,27 +22,41 @@ const SliderSection = () => {
   return (
     <section className="slider-section" id="slider-section">
       <Slider {...settings} adaptiveHeight={false}>
-        <div className="slide">
-          <img src="/slide1.jpg" alt="Slide1" className="slide-img" />
+        <div className="slide slide1">
           <div className="overlay">
             <h1 className="slide-tittle">Почему стоит выбрать нас:</h1>
             <p className="slide-text">
               НАДЕЖНОСТЬ - все договорённости зафиксированы в договоре. Мы
               всегда на связи.
             </p>
-            <a
-              href="https://vk.com/buhuchetbp"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <p>Наш ВК:</p>
-              <img src="/vk-icon.svg" alt="VK" />
-            </a>
+            <div className="social-links">
+              <a
+                href="https://vk.com/buhuchetbp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link vk"
+              >
+                <img src="/vk-icon.svg" alt="VK" className="social-icon" />
+                <span>Мы в ВКонтакте</span>
+              </a>
+
+              <a
+                href="https://t.me/bubpekb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link tg"
+              >
+                <img
+                  src="/telegram-icon.svg"
+                  alt="Telegram"
+                  className="social-icon"
+                />
+                <span>Наш Telegram</span>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="slide">
-          <img src="/slide2.jpg" alt="Slide2" className="slide-img" />
+        <div className="slide slide2">
           <div className="overlay">
             <h1 className="slide-tittle">ГОСОРГАНЫ</h1>
             <p className="slide-text">
@@ -53,19 +67,34 @@ const SliderSection = () => {
               - Прозрачная стоимость услуг. Зависит только от объёма Вашей
               деятельности.
             </p>
-            <a
-              href="https://www.instagram.com/buhuchet.bp/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <p>Наш инстаграмм:</p>
-              <img src="/insta-icon.svg" alt="Instagram" />
-            </a>
+            <div className="social-links">
+              <a
+                href="https://vk.com/buhuchetbp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link vk"
+              >
+                <img src="/vk-icon.svg" alt="VK" className="social-icon" />
+                <span>Мы в ВКонтакте</span>
+              </a>
+
+              <a
+                href="https://t.me/bubpekb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link tg"
+              >
+                <img
+                  src="/telegram-icon.svg"
+                  alt="Telegram"
+                  className="social-icon"
+                />
+                <span>Наш Telegram</span>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="slide">
-          <img src="/slide3.jpg" alt="Slide3" className="slide-img" />
+        <div className="slide slide3">
           <div className="overlay">
             <h1 className="slide-tittle">ИННОВАЦИОННЫЕ ТЕХНОЛОГИИ</h1>
             <p className="slide-text">
@@ -78,15 +107,31 @@ const SliderSection = () => {
               - опыт работы каждого из членов нашей команды от 7 лет и больше и
               десятки пройденных налоговых проверок, в том числе и выездных.
             </p>
-            <a
-              href="https://t.me/bubpekb"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <p>Наш телеграмм:</p>
-              <img src="/telegram-icon.svg" alt="Telegram" />
-            </a>
+            <div className="social-links">
+              <a
+                href="https://vk.com/buhuchetbp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link vk"
+              >
+                <img src="/vk-icon.svg" alt="VK" className="social-icon" />
+                <span>Мы в ВКонтакте</span>
+              </a>
+
+              <a
+                href="https://t.me/bubpekb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link tg"
+              >
+                <img
+                  src="/telegram-icon.svg"
+                  alt="Telegram"
+                  className="social-icon"
+                />
+                <span>Наш Telegram</span>
+              </a>
+            </div>
           </div>
         </div>
       </Slider>
