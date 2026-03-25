@@ -178,6 +178,7 @@ const Calculator = () => {
               <option value="Лизиинг">Лизиинг</option>
               <option value="Факторинг">Факторинг</option>
               <option value="ЛиФ">Лизиинг и Факторинг</option>
+              <option value="Нет">Нет</option>
             </select>
           </label>
 

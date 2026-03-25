@@ -10,6 +10,8 @@
   background-size: cover;
   position: relative;
   padding: 20px;
+  scroll-margin-top: 100px;
+  scroll-behavior: smooth;  
 }  
 
 .calculatorSection::before{
@@ -115,6 +117,11 @@ background-color: #fff;
 }
 
 @media (max-width: 768px) {
+  .calculatorSection{
+    scroll-margin-top: 220px;
+    scroll-behavior: smooth;  
+  }
+
     .calculator-tittle {
       font-size: 30px; /* Уменьшаем размер заголовка */
       padding: 10px; /* Уменьшаем отступы */
