@@ -1,0 +1,134 @@
+/* === FOOTER === */
+.footer {
+  background: #1f2937; /* Темный, строгий фон (Slate 800) */
+  color: #9ca3af; /* Светло-серый текст */
+  padding: 40px 20px;
+  font-family: var(--font-main); /* Manrope */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Колонки */
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Левая колонка */
+.left-col {
+  align-items: flex-start;
+}
+
+.footer-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: opacity 0.2s;
+}
+
+.footer-logo-link:hover {
+  opacity: 0.8;
+}
+
+.footer-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.footer-brand-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.copyright {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* Центральная колонка */
+.center-col {
+  align-items: center;
+}
+
+.footer-link {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+  border-bottom: 1px solid transparent;
+}
+
+.footer-link:hover {
+  color: white;
+  border-bottom-color: white;
+}
+
+/* Правая колонка (Соцсети) */
+.right-col {
+  align-items: flex-end;
+}
+
+/* Уникальные классы для футера */
+.footer-social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-link {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-social-link img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.footer-social-link:hover {
+  background: #db1515;
+  transform: translateY(-3px);
+}
+
+/* === АДАПТИВ === */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .left-col, .center-col, .right-col {
+    align-items: center;
+  }
+
+  .footer-logo-link {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer-brand-name {
+    font-size: 14px;
+  }
+}
