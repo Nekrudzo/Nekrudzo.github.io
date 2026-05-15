@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import SliderSection from "./components/SliderSection/SliderSection";
 import MapSection from "./components/MapSection/MapSection";
-import ContactForm from "./components/ContactForm/ContactForm";
+import YandexForm from "./components/YandexForm/YandexForm";
 import Footer from "./components/Footer/Footer";
 import backVideo from "./assets/videos/BackVideo.mp4";
 
@@ -67,7 +67,7 @@ function App() {
 
       <SliderSection />
       <MapSection />
-      <ContactForm />
+      <YandexForm />
       <Footer />
     </div>
   );

@@ -1,0 +1,69 @@
+.yandex-form-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.form-wrapper {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.form-subtitle {
+  color: #6b7280;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.yandex-form-container {
+  width: 100%;
+  min-height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.yandex-form-iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  border: none;
+  display: block;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+  .form-wrapper {
+    padding: 24px;
+  }
+  
+  .form-title {
+    font-size: 24px;
+  }
+  
+  .form-subtitle {
+    font-size: 14px;
+  }
+  
+  .yandex-form-container {
+    min-height: 500px;
+  }
+  
+  .yandex-form-iframe {
+    min-height: 500px;
+  }
+}
