@@ -3,7 +3,7 @@ import "./YandexForm.css";
 
 const YandexForm = () => {
   return (
-    <section className="yandex-form-section" id="calculatorSection">
+    <section className="yandex-form-section" id="contactSection">
       <div className="form-wrapper">
         <h2 className="form-title">Заказать консультацию</h2>
         <p className="form-subtitle">
